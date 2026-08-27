@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo — Senior Systems Analyst</title>
+  <meta name="description" content="Portfólio de Gustavo, Senior Systems Analyst em transição de carreira para Inteligência Artificial, Docker e AWS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <span class="logo">Gustavo</span>
+      <nav class="nav" aria-label="Navegação principal">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Abrir menu</span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#fotografia">Fotografia</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Olá, eu sou</p>
+        <h1>Gustavo</h1>
+        <p class="hero-role">Senior Systems Analyst — Estudando Pós-graduação em Inteligência Artificial</p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn btn-outline">Contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre mim</h2>
+        <p class="section-lead">
+          Profissional com cerca de 20 anos de experiência em tecnologia para o setor de seguros,
+          atuando com sistemas, automação de TI, gestão de incidentes e documentação de processos.
+          Atualmente em transição/expansão de carreira, estudando Inteligência Artificial, Docker,
+          AWS e desenvolvimento web — unindo experiência sólida em operações de TI a novas
+          competências em engenharia e nuvem.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Experiência &amp; Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>ITSM</h3>
+            <p>ServiceNow, Jira — gestão de tickets, mudanças e processos de service desk.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Sistemas legados</h3>
+            <p>COBOL, DB2 — manutenção e suporte a sistemas críticos do setor de seguros.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Gestão de incidentes</h3>
+            <p>Diagnóstico, priorização e resolução de incidentes com foco em continuidade de negócio.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Metodologias ágeis</h3>
+            <p>Scrum e Kanban aplicados à rotina de sustentação e melhoria contínua.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Automação com Python</h3>
+            <p>Scripts para automatizar tarefas operacionais e reduzir trabalho manual repetitivo.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Docker &amp; AWS</h3>
+            <p>Containerização e infraestrutura em nuvem — em aprendizado ativo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+        <div class="project-card">
+          <div class="project-tag">Case #1</div>
+          <h3>Deploy deste portfólio na AWS</h3>
+          <p>
+            Este próprio site foi containerizado com <strong>Docker</strong> e é servido por um
+            <strong>Nginx</strong>. A imagem é publicada em um repositório <strong>Amazon ECR</strong>
+            e hospedada no <strong>AWS App Runner</strong>, com deploy automático a cada push através
+            de um pipeline de <strong>CI/CD no GitHub Actions</strong>.
+          </p>
+          <ul class="project-stack">
+            <li>HTML/CSS/JS</li>
+            <li>Docker</li>
+            <li>Nginx</li>
+            <li>Amazon ECR</li>
+            <li>AWS App Runner</li>
+            <li>GitHub Actions</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="fotografia" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Fotografia</h2>
+        <p class="section-lead">Um espaço pessoal para registros e cliques — fotografia é um dos meus interesses fora da tecnologia.</p>
+        <div class="gallery" id="gallery">
+          <figure class="gallery-item placeholder">
+            <span>Foto 1</span>
+          </figure>
+          <figure class="gallery-item placeholder">
+            <span>Foto 2</span>
+          </figure>
+          <figure class="gallery-item placeholder">
+            <span>Foto 3</span>
+          </figure>
+          <figure class="gallery-item placeholder">
+            <span>Foto 4</span>
+          </figure>
+          <figure class="gallery-item placeholder">
+            <span>Foto 5</span>
+          </figure>
+          <figure class="gallery-item placeholder">
+            <span>Foto 6</span>
+          </figure>
+        </div>
+        <p class="gallery-hint">Substitua os itens acima por imagens em <code>assets/</code>.</p>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <p class="section-lead">Vamos conversar sobre tecnologia, IA ou novas oportunidades.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/brandaoilha" target="_blank" rel="noopener noreferrer" class="contact-link">
+            LinkedIn
+          </a>
+          <a href="mailto:gustavobrandao.ilha@gmail.com" class="contact-link">
+            gustavobrandao.ilha@gmail.com
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Gustavo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
