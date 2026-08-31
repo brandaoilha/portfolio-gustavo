@@ -40,7 +40,7 @@
       <div class="container">
         <p class="eyebrow">Olá, eu sou</p>
         <h1>Gustavo</h1>
-        <p class="hero-role">Analista de Sistemas Sênior — Gestão de Mudanças, Automação de TI e Pós-graduação em Inteligência Artificial</p>
+        <p class="hero-role">Analista de Sistemas Sênior — Gestão de Mudanças e Incidentes (ServiceNow), Desenvolvimento e Testes em DSV e HML, e Pós-graduação em Inteligência Artificial (Término - Julho de 2027)</p>
         <div class="hero-actions">
           <a href="#projetos" class="btn btn-primary">Ver projetos</a>
           <a href="#contato" class="btn btn-outline">Contato</a>
@@ -77,11 +77,11 @@
             </div>
             <p class="timeline-company">T.O. Brasil — Alocado no cliente Bradesco Seguros</p>
             <p>
-              Análise de sistemas e requisitos para automação de TI em todas as verticais do
-              cliente (Auto, RE, Saúde e Vida), unindo metodologias ágil e cascata. Responsável
+              Análise de sistemas e requisitos para desenvolvimento e testes em DSV e HML em
+              todas as verticais do cliente (Auto, RE, Saúde e Vida), unindo metodologias ágil e
+              cascata. Responsável
               pela criação de RITMs, definição de escopo e implantação de CHGs via ServiceNow —
-              mais de 700 mudanças implantadas com controle de impacto em ambiente regulado (DSV
-              e HML). Referência técnica da equipe na resolução de incidentes críticos,
+              mais de 700 mudanças implantadas com controle de impacto em ambiente regulado. Referência técnica da equipe na resolução de incidentes críticos,
               orientando analistas menos experientes.
             </p>
           </div>
@@ -177,16 +177,35 @@
           <p>
             Este próprio site foi containerizado com <strong>Docker</strong> e é servido por um
             <strong>Nginx</strong>. A imagem é publicada em um repositório <strong>Amazon ECR</strong>
-            e hospedada no <strong>AWS App Runner</strong>, com deploy automático a cada push através
-            de um pipeline de <strong>CI/CD no GitHub Actions</strong>.
+            e hospedada no <strong>Amazon ECS (Express Mode)</strong>, com deploy automático a cada push
+            através de um pipeline de <strong>CI/CD no GitHub Actions</strong>.
           </p>
           <ul class="project-stack">
             <li>HTML/CSS/JS</li>
             <li>Docker</li>
             <li>Nginx</li>
             <li>Amazon ECR</li>
-            <li>AWS App Runner</li>
+            <li>Amazon ECS</li>
             <li>GitHub Actions</li>
+          </ul>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Case #2</div>
+          <h3>Automação de Relatório Diário de Vendas com Python</h3>
+          <p>
+            Desafio prático de automação: todos os dias o sistema atualiza as vendas do dia
+            anterior, e o trabalho manual seria enviar um e-mail para a diretoria com o
+            faturamento e a quantidade de produtos vendidos assim que o expediente começa.
+            A proposta é automatizar essa rotina de ponta a ponta com <strong>Python</strong> e
+            <strong>PyAutoGUI</strong> — buscando os dados disponibilizados pelo sistema e
+            simulando as ações de mouse e teclado para compor e enviar o e-mail automaticamente,
+            eliminando a tarefa manual repetitiva do início do dia.
+          </p>
+          <ul class="project-stack">
+            <li>Python</li>
+            <li>PyAutoGUI</li>
+            <li>Automação de Processos</li>
           </ul>
         </div>
       </div>
@@ -197,9 +216,6 @@
         <h2 class="section-title">Fotografia</h2>
         <p class="section-lead">Um espaço pessoal para registros e cliques — fotografia é um dos meus interesses fora da tecnologia.</p>
         <div class="gallery" id="gallery">
-          <figure class="gallery-item">
-            <img src="assets/senna.jpeg" alt="Senna" loading="lazy">
-          </figure>
           <figure class="gallery-item">
             <img src="assets/olhares.jpeg" alt="Olhares" loading="lazy">
           </figure>
